@@ -15,7 +15,7 @@ const openai = new OpenAIApi(Configuration);
 // Each message is an object containing the role (who sent the message) - could be from the AI or the human user
 // The code prints the response from the AI
 
-opena
+openai
     .createChatCompletion({
         model: "gpt-3.5-turbo",
         messages: [{role: "user", content: "Hello"}]
